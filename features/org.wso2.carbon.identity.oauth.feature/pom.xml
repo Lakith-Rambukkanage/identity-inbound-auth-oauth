@@ -84,6 +84,12 @@
                                     org.wso2.carbon.identity.inbound.auth.oauth2:org.wso2.carbon.identity.oauth.dcr.server.feature
                                 </includedFeatureDef>
                             </includedFeatures>
+                            <bundles>
+                                <bundleDef>com.fasterxml.jackson.core:jackson-databind</bundleDef>
+                                <bundleDef>org.wso2.carbon:org.wso2.carbon.user.core</bundleDef>
+                                <bundleDef>org.wso2.carbon:org.wso2.carbon.user.core</bundleDef>
+                                <bundleDef>org.wso2.carbon.identity.organization.management:org.wso2.carbon.identity.organization.management.role.management.service</bundleDef>
+                            </bundles>
                         </configuration>
                     </execution>
                 </executions>
